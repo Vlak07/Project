@@ -1,0 +1,156 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	<link rel="icon" href="./n.png">
+	<title>Details Forms</title>
+
+<style >
+	*{
+		margin: 10;
+		padding: 10;
+	}
+	body{
+		background-image: url(image/detail.webp);
+		background-repeat: no-repeat;
+		background-size: 200%;
+		background-position:-500px 0px;
+	}
+
+	div.main{
+		width: 500px;
+		margin: 100px auto 0px auto;
+
+	}
+	h1{
+		text-align: center;
+		padding: 30px;
+		font-family: cursive;
+		color: lightpink;
+
+	}
+
+	div.register{
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 90%;
+		font-size: 18px;
+		border-radius: 20px;
+		border: 1px solid hotpink;
+		box-shadow: 2px 2px red;
+		color: lightblue;
+
+	}
+	form#register{
+		margin: 40px;
+	}
+
+	label{
+		font-family: klee one;
+		font-size: 20px;
+		font-style: italic;
+
+	}
+
+	input#name{
+		width: 300px;
+		border: 1px solid grey;
+		border-radius: 3px;
+		outline: 0;
+		padding: 7px;
+		background-color: lightgrey;
+		box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+
+
+	}
+	.button{
+		width: 200px;
+		padding: 10px;
+		font-size: 18px;
+		font-family: anton;
+		font-weight: 800;
+		border-radius: 5px;
+		background-color: lightgoldenrodyellow;
+		color: brown;
+		cursor: pointer;
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+		margin-bottom: 30px;
+		text-align: center;
+
+
+	}
+	.button:hover{
+		background-color: yellow;
+	}
+
+	label,span,h2{
+		text-shadow: 1px 1px 5px yellow;
+	}
+
+	h4{
+		text-align: right;
+		text-underline-position: left;
+		color: paleturquoise;
+	}
+
+
+	
+</style>
+
+
+</head>
+
+<body>
+	<img src="image/orderD.gif" style="height: 250px; width: 1100px; float: center; margin-left: 130px; ">
+
+	<div class="main">
+	<div class="register">
+		<h1>DELIVERY DETAILS 
+
+			<h3 style=" color:springgreen ;  text-align:center">[ ONLY CASH ON DELIVERY AVAILABLE ] </h3>
+
+		</h1>
+		
+
+		<form id="register" method="post">
+			<label> First Name :</label>
+			<br>
+			<input type="text" name="fname" id="name" placeholder="Enter Your First Name" required><br><br>
+
+			<label> Last Name :</label>
+			<br>
+			<input type="text" name="lname" id="name" placeholder="Enter Your Last Name" required><br><br>
+
+			<label> Mobile No :</label>
+			<br>
+			<input type="number" name="number" id="name" placeholder="Enter Your Mobile Number" required><br><br>
+
+			<label> Email : :</label>
+			<br>
+			<input type="email" name="email" id="name" placeholder="Enter Your Valid Email" required><br><br>
+
+
+
+
+			
+			<label class="address" >Address</label>
+			<textarea rows="4" cols="40"></textarea>
+
+			<br><br>
+
+			<a href="sucess.html"><div class="button">Order Now </div>
+
+				<img src="image/cookA.jpg" style="height:150px">
+				<img src="image/cookC.jpg" style="height: 150px; float:right;">
+				
+
+				<h4>Delivery Agent Number<br>7678912389<br>9871236408<br><br>Our Toll Free Number <br>+07102-690895</h4>
+
+			
+	
+
+			
+		</form>	
+	</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+}
+body{
+    background: url('./o.jpg')  no-repeat;
+    background-size: cover;
+    color: #080202;
+}
+.register{
+    position: absolute;
+    top:50% ;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+}
+.register h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.register p{
+  font-size:25px;
+   margin: 15px 0;
+   width: 50%;
+    font-weight: bold;
+}
+
+.register input{
+    font-size: 16px;
+    padding: 15px ;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register button{
+    font-size: 19px;
+    margin: 20px 0;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    width: 50%;
+    background-color: yellow;
+}
+.register button:hover{
+    color: green;
+}
